@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg">
+        <button class="home">Home</button>
+        <div class="inner">
+            <h1 class="head1">Fav places</h1>
+            <div class="card1 d-flex flex-row">
+                <div class="text1">
+                    <h1>Tajmahal</h1>
+                    <p>The Taj Mahal was designated as a UNESCO World Heritage Site
+                        in 1983 for being “the jewel of Muslim art in India and one of
+                        the universally admired masterpieces of the world's heritage”</p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" class="image1">
+            </div>
+
+
+            <div class="card1 d-flex flex-row">
+                <div class="text1">
+                    <h1>Varanasi</h1>
+                    <p>Varanasi is one of the world's oldest continually inhabited cities.
+                        [21][22][23] Kashi, its ancient name, was associated with a kingdom
+                        of the same name of 2,500 years ago. </p>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Varanasi%2C_India%2C_Ghats%2C_Cremation_ceremony_in_progress.jpg/1599px-Varanasi%2C_India%2C_Ghats%2C_Cremation_ceremony_in_progress.jpg" class="image1">
+            </div>
+
+            <div class="bg">
+                <div class="card1 d-flex flex-row">
+                    <div class="text1">
+                        <h1 style="font-size:36px;">Simhachalam</h1>
+                        <p>Sri Varaha Lakshmi Narasimha temple, Simhachalam, is a Hindu temple situated
+                            on the Simhachalam Hill Range,which is 300 metres above the sea level in the city
+                            of Visakhapatnam, Andhra Pradesh, India</p>
+                    </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTri6tp9A7gCyf2-x2k8LP2CZbViI1N8_v31A&usqp=CAU" class="image1"/>
+                </div>
+                <div class="card1 d-flex flex-row">
+                    <div class="text1">
+                        <h1>Tirupati</h1>
+                        <p>Tirupati is a city in the Indian state of Andhra Pradesh.
+                            Its Sri Venkateswara Temple sits atop one of the the 7 peaks of
+                            Tirumala Hills, attracting scores of Hindu pilgrims</p>
+                    </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfFLtb3qrqhAWPsWJqgFaVG2lZ_oB5KiOqzQ&usqp=CAU" class="image1" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+}
+.head1 {
+    text-align: center;
+    color: black;
+    font-family: "Monoton";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card1 {
+    position: relative;
+    flex: auto;
+    background-color: rgba(232, 235, 233, 0.7);
+    border-radius: 26px;
+    padding: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.text1 {
+    font-family: "roboto";
+    font-size: 16px;
+}
+
+.image1 {
+    height: 130px;
+    width: 110px;
+}
+
+.home {
+    border: 20px;
+    padding: 8px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: "roboto";
+    background-color: rgba(245, 247, 250, 0.7);
+}
+
+.home:hover {
+    color: white;
+
+}
+    </style>
+</body>
+
+</html>
